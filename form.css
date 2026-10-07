@@ -1,0 +1,20 @@
+.navbar-nav {
+  font-family: Gill sans;
+}
+ul li:hover {
+  transform: scale(1.1);
+}
+#bg {
+  background-image: url(icbg.png);
+  background-size: contains;
+  background-position: center;
+}
+.loginbox {
+  box-sizing: border-box;
+  text-decoration: solid;
+  color: green;
+}
+.form-label::after {
+  content: "*";
+  color: red;
+}

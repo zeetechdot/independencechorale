@@ -1,0 +1,19 @@
+.navbar-nav {
+  font-family: Gill sans;
+}
+ul li:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  border-bottom-right-radius: 7%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 20px black;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+#bg {
+  background-image: url(formbg.jpg);
+}

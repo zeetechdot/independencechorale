@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('animate-up')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));});
